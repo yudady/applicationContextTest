@@ -7,8 +7,20 @@ import tk.tommy.source.bean.Config03;
 import tk.tommy.source.vo.Car;
 import tk.tommy.source.vo.Dog;
 import tk.tommy.source.vo.Egg;
+/**
+ * ApplicationContextTest01
+ * =====
+ *
+ * Text
+ */
 public class ApplicationContextTest01 {
-
+	/**
+	 * ![Example Diagram](example.png)
+	 *
+	 * @uml example.png
+	 * Alice -> Bob: Authentication Request
+	 * Bob --> Alice: Authentication Response
+	 */
 	public static void main(String[] args) throws InterruptedException {
 
 		AnnotationConfigApplicationContext parentCtx = new AnnotationConfigApplicationContext();
